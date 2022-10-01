@@ -73,7 +73,9 @@ There was also a concession that was highlighted in the framework that exploits/
 ## Bridge Security Comparative Analysis
 This is perhaps the most vital factor for evaluation of bridges, covering trust mechanism and security assurances. The former covers the spectrum of trust assumptions embedded within their logic and (operational) verifiers instituted in the system, while the latter covers the depth of audits, code deployment process and external bounties. The Nomad exploit underlined the need for a comprehensive and fully robust security framework; it is simply not enough to have a secure architectural logic without a corresponding emphasis on secure operational measures.
 It is therefore vital to analyze the full-suite of security elements that not only include the architectural logic, but also — with equal emphasis — the respective operational security measures and safety measures determining the protocol’s code quality. Here is the comparative analysis for security across the bridges;
+
 ![](assets/MBGP1/Security-analysis.png)
+
 Across all security vectors, Wormhole stood out. The security guarantee of Wormhole comes from the reputational authority of the Guardians, which is made up of 19 of the largest staking and infrastructure providers in Web3. Beyond that, their dedication towards continual audits, offering the highest bounties as well as extensive incident control + robust on-chain monitoring played a huge role in edging the rest of the bridges. We have spoken to the Wormhole’s Chief Security Officer (CSO) to understand their security infrastructure and processes at a greater depth, which gave us more conviction on their dedication towards security.
 
 ## Risk Mitigation 
