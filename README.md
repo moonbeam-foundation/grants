@@ -3,9 +3,14 @@
 This repository contains information about the Moonbeam Grant Program
 
 
-## Interim Grant Proposal
+## Revised Grant Program: 
 
-As originally outlined in TheTeriyakiDon's [polkassembly post](https://moonbeam.polkassembly.network/post/131) and voted on and [approved by the Moonbeam community](https://moonbeam.foundation/news/interim-grant-program/), the [Interim Grant Proposal](interim/interim_grant_proposal.md) outlines the current 6 month grant program for the Moonbeam Ecosystem.
+As outlined in sicco-moonbeam's [Moonbeam Forum post](https://forum.moonbeam.foundation/t/discussion-for-revised-grant-program/399), the [Revised Grant Program](revised/revised_grant_program.md) is being proposed as the successor to the [Interim Grant Proposal](interim/interim_grant_proposal.md)
+
+
+## Interim Grant Proposal: Sept 12, 2022 - March 12, 2023
+
+As originally outlined in TheTeriyakiDon's [polkassembly post](https://moonbeam.polkassembly.network/post/131) and voted on and [approved by the Moonbeam community](https://moonbeam.foundation/news/interim-grant-program/), the [Interim Grant Proposal](interim/interim_grant_proposal.md) outlines the 6 month grant program for the Moonbeam Ecosystem that is in effect from Sept 12, 2022 to March 12, 2023.
 
 ## Level 3 Grant Proposals
 
