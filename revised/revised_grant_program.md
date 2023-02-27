@@ -4,8 +4,6 @@ Timing: Plan to put this Proposal in for Vote 2/27/2023
 
 The Interim Grants Program ([Proposal](https://moonbeam.polkassembly.network/referendum/51),  [Proposal Description)](https://moonbeam.polkassembly.network/post/131)  expires Mar 12, 2023. I am proposing an extension of the grants program because as a community member and a member of the Community Grants Committee I believe grants remain a critical component of Moonbeam’s growth and support for developers who are building cutting-edge technology.
 
-The proposal is still a work in progress, but I want to get feedback on some initial ideas for possible changes from the Interim Grants Program, including what was previously referred to as Level 3 Grants (now called Ecosystem Grants).
-
 ## Ecosystem Grants (formerly known as “Level 3 Grants”)
 
 -   Ecosystem Grants replace the “Level 3 Grants” of the previous Interim Grants Program
