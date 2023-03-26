@@ -5,7 +5,14 @@ This repository contains information about the Moonbeam Grant Program
 
 ## Revised Grant Program: 
 
-As outlined in sicco-moonbeam's [Moonbeam Forum post](https://forum.moonbeam.foundation/t/discussion-for-revised-grant-program/399), the [Revised Grant Program](revised/revised_grant_program.md) is being proposed as the successor to the [Interim Grant Proposal](interim/interim_grant_proposal.md)
+As outlined in sicco-moonbeam's [Moonbeam Forum post](https://forum.moonbeam.foundation/t/discussion-for-revised-grant-program/399), the [Revised Grant Program](revised/revised_grant_program.md) was proposed as the successor to the [Interim Grant Proposal](interim/interim_grant_proposal.md) and was passed in [Referendum 87](https://moonbeam.polkassembly.network/referendum/87).
+
+| Tranche # | Grant Proposal 											           |
+|---		| ---														  		   |
+|	1		| [Tranche 1 Ecosystem Grant Proposal](./revised/tranche_1_proposal.md)|
+|	2		| TBD															           |
+
+
 
 
 ## Interim Grant Proposal: Sept 12, 2022 - March 12, 2023
@@ -19,5 +26,5 @@ As originally outlined in TheTeriyakiDon's [polkassembly post](https://moonbeam.
 
 | MGBP # | Grant                                                      |
 |---     |---                                                         |
-|  1     | [StellaSwap's Ecosystem Grant Proposal](level-3/MBGP1.md)  | 
-|  2     | [Moonwell's Ecosystem Grant Proposal](level-3/MBGP2.md)    | 
+|  1     | [StellaSwap's Ecosystem Grant Proposal](interim/level-3/MBGP1.md)  | 
+|  2     | [Moonwell's Ecosystem Grant Proposal](interim/level-3/MBGP2.md)    | 
