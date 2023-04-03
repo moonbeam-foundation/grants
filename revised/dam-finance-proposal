@@ -1,0 +1,189 @@
+* __Title__ - DAM Finance: Ecosystem Grant Draft Proposal
+
+* __Author__ - Harrison Comfort, Co-Founder of DAM Finance
+* __TLDR__ - 
+  * __Primary Goal__- DAM’s Ecosystem Grant proposal would achieve both of the program's goals with (i) being the primary objective. DAM’s primary objective with this Ecosystem Grant is to establish d2o, DAM's native, dollar-denominated reserve asset on Moonbeam that avoids the tradeoffs of wrapped, bridged stablecoins, as the preferred native stablecoin on Moonbeam by increasing the number of d2o holders (there were 633 at the time of writing on March 17, this figure has now nearly doubled by March 19), daily transactions involving d2o, and increasing d2o TVL to become one of Moonbeam’s most liquid assets. This is complemented by an active go-to-market effort of current and prospective partnerships inspired by our contributors' enterprise sales experience. A secondary objective (which helps fuel DAM’s primary objective), is increasing the number of connected contract use cases through DAM’s product roadmap.
+
+  * __Project Description__ - DAM is a liquidity infrastructure enabling the seamless teleportation of value between blockchains, starting with d2o, an omnichain, native stablecoin that is backed 1:1 with native USDC on Ethereum. See relevant links here:
+    - App: [https://app.dam.finance/](https://app.dam.finance/)
+    - Docs: [https://docs.dam.finance/](https://docs.dam.finance/)
+    - GitHub: [https://github.com/DAM-Finance](https://github.com/DAM-Finance)
+    - Audits: [https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity Smart Contract Audits/DAMfinance Audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits/DAMfinance%20Audits)
+    - Deployed Contracts: https://docs.dam.finance/technical/contracts 
+
+  * __Requested GLMR Grant Amount__ - 750,000 GLMR
+
+  * Use of Grant - This grant will be used to create an incentivized d2o <> GLMR pool with concentrated liquidity (our intention is for this to be launched on StellaSwap) and a traditional d2o <> xcDOT pair in order to maximize the impact of DAM’s existing and pipeline of partnerships. This grant will help accelerate our vision of DAM becoming the leading stablecoin project within Polkadot.
+
+  * __Motivation for Grant Amount__-  d2o represents a mechanism to scale native stablecoin liquidity without the UX, composability and security tradeoffs of wrapped stablecoins. d2o also enhances Moonbeam’s cross-chain connected contract strategy for multi-chain dapps seeking a native stablecoin primitive on multiple blockchains. 
+
+  * __Updates__ - Additions and updates on have been made to the following sections based on Community feedback and questions:
+
+    * Primary Goal (to highlight one primary goal)
+     - Project Description (added all deployed contract links)
+    * Vision of Success (adding additional OKRs, and clarification on d2o deployment on other parachains)
+    * Timelines and Milestones for Use of Grant (clarifying vision for d2o pool launches and expanding on d2o value proposition)
+    * Project Overview and Relevant KPIs (elaborating on protocol risk management, dGuardian architecture)
+    - Steps to Implement (clarifying DAM's discussions on potential DEX partners)
+
+* __Project Overview and Relevant KPIs__ - DAM is a global, shared liquidity infrastructure for scalably moving value between sovereign networks. DAM’s first decentralized application, d2o, is an omnichain dollar-denominated reserve asset helping sovereign blockchains scale native liquidity, starting with Moonbeam <> Ethereum.  
+
+  - DAM’s first dapp, d2o, is a connected contract use case through its mint-and-burn teleportation between blockchains, starting with Ethereum and Moonbeam. DAM’s design optimizes for scalability, security and user experience. After d2o is minted on Ethereum, there is a three-stage workflow in order for d2o to be teleported to Moonbeam as a native asset.
+    - d2o is burned on Ethereum
+    - Evidence of d2o being burned via Merkle Tree proof is routed to Moonbeam through either
+LayerZero or Hyperlane (DAM supports more than one cross-chain messaging protocol for purposes of resilience)
+    - After waiting a designated number of blocks (to be assured of finality) , d2o is minted on Moonbeam provided DAM’s dGuardian dapp matches the d2o mint on Moonbeam with a corresponding burn on Ethereum.
+
+  - Since launching v1 in February 2023, DAM has achieved the following milestones on Moonbeam: 
+ 
+     - Reached $500k+ TVL in d2o Pools
+     - ~300k d2o teleported to Moonbeam from Ethereum
+      - 633+ holders (as of 17 March around 1pm EST)
+      - 6k+ d2o transactions
+      - Current integrations include:
+         - Curve Finance
+         - Beamswap
+        - BrainDex
+        - GLMR Apes
+        - Double Protocol
+        - GLMR Jungle
+        - DIA
+        - ZooDAO
+        - LayerZero
+        - Hyperlane
+    
+    -  DAM has also developed a robust pipeline of partnerships across gaming, defi, NFTs and other infrastructure providers. These include existing Moonbeam projects, but predominantly consist of net-new projects to the Moonbeam ecosystem. DAM’s roadmap includes validated features from DAM’s community to enable one-click cross-network workflows, so d2o can increase its value as a shared stablecoin primitive for more complex connected contract use cases.
+
+   - DAM addresses three problems related to the current cross-chain experience:
+
+     - Market Depth: Emerging blockchains lack meaningful native stablecoin liquidity. DAM enables users to teleport d2o minted on Ethereum to blockchains such as Moonbeam to serve as a vehicle for adding net new TVL, and provide market depth to local assets.
+     - UX: d2o is a native asset on Moonbeam - there is no confusion on whether or not it is a canonical asset, and its design is composable by default. d2o maintains its peg through a publicly available arbitrage opportunity, as anyone that holds d2o can teleport back to Ethereum to claim the underlying USDC on a 1:1 basis.
+     - Security: Traditional bridges relying on middle chain consensus and wrapped assets pose material security risks and UX trade offs. The dReservoir is a fault-tolerant protocol built on top of LayerZero and Hyperlane, allowing for d2o to be teleported as a canonical asset without any approvals on the destination network in a manner which we believe offers what we believe is a superior risk model than traditional bridges. Read more about DAM’s [teleportation](https://medium.com/dam-d2o/liquidity-pipes-dam-finance-goes-multi-chain-78c55a01fafa) and [architecture](https://medium.com/dam-d2o/dams-multichain-dapp-architecture-why-hub-and-spoke-need-not-apply-c0bad143d324) approach.
+
+   - DAM’s contributors have extensively studied security hacks in the stablecoin and bridging space. This work has been supplemented by insights from friends of DAM including Polygon CISO Mudit Gupta, founders of Hop Protocol, and ex Head of Crypto at Moody's Lily Francus, as well as our team’s experience building blockchain applications for regulated financial institutions including the world’s largest central banks, wholesale banks, asset managers and insurance firms. Halborn also serves as DAM’s security advisor for smart contract audits, full-stack infrastructure, and operations. Please see a summary of DAM’s findings below:
+     - Common design decisions resulting in stablecoin depegs include:
+       * Under collateralized models relying on algorithms that can be manipulated or lack protocol risk management parameters.
+        * Collateralization profiles including assets with small market capitalizations and no cap on protocol exposure.
+       * Utilizing price feeds for assets that rely on only one price source.
+       * Arbitrages that are limited to a small subset of protocol participants.
+       * Ignoring suggestions from third party auditors.
+
+     - Common design decisions resulting in bridge hacks include:
+       * The “wrapped asset” model which involves collateral being deposited without a logical abstraction from the corresponding middleware
+       * Middleware being compromised with faulty messages.
+       * Vendor lock-in.
+       * Lack of monitoring agents.
+       * Poor key management.
+       * Ignoring suggestions from third party auditors.
+
+  - The above findings have informed DAM and d2o’s architectures in the following regards:
+
+       * Collateralization Profile: d2o is initially 100% collateralized by native USDC (more on this decision later) on Ethereum.
+    * Arbitrage: There is a publicly available arbitrage opportunity to anyone holding d2o. Anyone holding d2o can claim the underlying USDC.
+    * Smart Contracts: In addition to completing smart contract audits with Halborn and implementing their priority changes, DAM’s initial deployment is modified from some of the most battled-tested contracts in the digital assets space.
+    * Teleportation: Collateral backing d2o is abstracted from the messaging middleware. DAM uses a mint-and-burn architecture with mints on the network waiting a designated number of blocks on the destination network to ensure finality. DAM has chosen cross-chain messaging protocols that guarantee message delivery exactly once. DAM supports more than one cross-chain messaging protocol in the event one is compromised. d2o is teleported without any required intervention from DAM’s contributors required - it is teleported from a user’s wallet on the original network to a user’s wallet on the destination network. In order for teleported d2o to be moved on the destination network, the dGuardian must match the newly minted d2o with a corresponding burn on the origin network.
+  
+  - DAM’s contributors are very transparent with users around d2o’s collateralization profile to ensure users are aware of the protocol’s assumptions around USDC. This is apparent in DAM’s product documentation, front-end application and informal communications.
+
+    - As d2o is backed 1:1 with USDC on Ethereum, d2o’s price was impacted last weekend, however, it swiftly recovered by Monday as USDC regained its peg.
+
+    -  DAM has been advised by its security advisor not to share too much information about its risk mitigation plans publicly, however, please find a summary of how DAM reacted to last weekend’s events below:
+       - DAM has 24/7 monitoring processes in place for Priority 1 (severity issues) requiring immediate attention - when these are triggered - an automatic communication is sent to DAM’s core contributors.
+       - DAM’s core contributors discussed the situation and agreed that based on Circle’s footprint and deployment of collateral backing USDC, the peg would likely recover at the start of the work week. This viewpoint was shared amongst several d2o holders and two other larger defi projects DAM is in the process of collaborating with. Based on feedback from DAM’s security advisor, we were recommended not to make any rushed decisions.
+       - DAM’s contributors were in close contact with anyone reaching out to inquire about the situation. Responsiveness is - and will remain - a major priority.
+       - DAM ultimately took the decision to disable teleportation from Ethereum to Moonbeam via its front-end (but not the reverse).
+       - As USDC recovered Sunday night/Monday morning, DAM’s contributors didn’t take further action and re-enabled the front-end teleportation between Ethereum and Moonbeam on Monday.
+
+    - To mitigate against USDC exposure of d2o in the future, DAM could expand d2o’s collateralization profile (the contracts enabling this have already been audited) to include other assets and limit USDC exposure within the protocol.
+
+  - DAM's contributors have performed extensive testing of the d2o smart contracts and dGuardian. We have successfully undergone smart contract with DAM's security advisor Halborn, please see smart contract audit reports here: https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits/DAMfinance%20Audit. The d2o smart contracts are set up to delay any transfer of tokens for up to 30 seconds after a teleport, i.e. when tokens are minted on the destination chain. This leaves more than enough time for the dGuardian daemon to process the event logs from the destination chain. If it is the case where the mint cannot be matched to a corresponding burn then the dGuardian will indefinitely pause transfers on that account while an investigation is carried out. The dGuardian can do this within a couple of seconds or so of the mint event being written to the destination blockchain. If a hacker were to batch mint many transactions then their account would be paused in the first instance a fraudulent mint was encountered, so whilst they may be able to mint large amounts of tokens, they will not be able to transfer them anywhere. The whole exercise will result in fraudulent tokens either being burnt or just left in a locked account indefinitely.
+  - The dGuardian is a bot designed to monitor every teleport (through each single burn, then mint) and pause any transfers on addresses that have been flagged as exploitative. It has no access to mint or burn. In the event “something happens”, the dGuardian can respond immediately.
+  - Resilience is a key principle of DAM’s design. We have implemented best-practice operational processes based on DAM’s contributors’ experience running enterprise software for regulated financial institutions and in adherence to guidance from our security advisor, which advises some of the largest custodians of crypto assets globally. In terms of being a target for hackers, abstracting collateral from the cross-chain messaging protocol, supporting multiple cross-chain messaging protocols in a point-to-point system, mint-and-burn architecture, and the dGuardian processes help mitigate against attacks.
+
+* __Team Experience__ - DAM's core contributors have backgrounds in both blockchain and enterprise software at organizations such as R3, Myria, Fidelity, EY, IC Group, Oak Hill Capital and Bank of America. We’ve worked on public and enterprise blockchain projects including global trade initiatives, central bank digital currency pilots and decentralized finance applications. See bios below:
+
+  - **Harrison Comfort** - **Product Lead**, [www.linkedin.com/in/harrison-comfort/](https://www.linkedin.com/in/harrison-comfort/) - Harrison has a background in traditional finance and enterprise blockchain. His skills include data science, product development and commercial strategy. He has worked for R3 as its Director of Commercial Strategy and Head of MENA. Prior to that, he worked in private equity and investment banking at Oak Hill Capital and Bank of America, respectively. Harrison earned his B.S. in Economics with an Arabic Minor from Duke University.
+  - **Noah Foltz**, **Engineering Lead,** [https://www.linkedin.com/in/noahfoltz/](https://www.linkedin.com/in/noahfoltz/) - Noah has a background in public blockchain and asset management. His skills include back-end software engineering, smart contract development, devops and trading algorithms. He has worked for Fidelity on multi account portfolio management software for HNWIs, and previously served as a Senior Blockchain Engineer for Myria, an Ethereum-based L2 solution for gaming. Noah has also forked and modified Set Protocol to develop an on-chain crypto-index. Noah earned a B.S. in Computer Science from Boston College.
+  - **Sophie Holm,** **Growth Lead** ([https://www.linkedin.com/in/swholm/](https://www.linkedin.com/in/swholm/)) **-**  Sophie has a background in enterprise blockchain and corporate strategy. Her skills include business development, decentralized governance and engineering operations. She worked for R3 in a number of roles including an Head of Solution Engineering, Ecosystem Development lead and Project Manager. Sophie earned a Masters in Finance and Strategic Management from Copenhagen Business School.
+  - **Roger Willis, Architecture Lead** ([https://www.linkedin.com/in/roger-willis/](https://www.linkedin.com/in/roger-willis/)) - Roger has a background in public and enterprise blockchain, and banking. His skills include full-stack software engineering, blockchain development, smart contract development and product strategy. He worked at R3 in a number of roles including Head of Platform Strategy, Senior Software Engineer and Head of Developer Relations, and previously served as Head of Platform Strategy at Generative Engineering and Forensic Data Analytics Executive at EY. Roger has built dozens of blockchain applications on a range of platforms including Ethereum, Corda, Hyperledger Fabric and Solana. Roger earned a BSc in Computer Science and Artificial Intelligence from Durham University.
+  - **Nuno Tomas, Front-end Engineer** [https://www.linkedin.com/in/nunotomasdev/?originalSubdomain=pt](https://www.linkedin.com/in/nunotomasdev/?originalSubdomain=pt) - Nuno has a background as a full stack engineer, across industries. His skills include Firebase, React.js, JavaScript, Web3.js amongst some. Some of his previous work includes senior software architect, software developer and senior front-end engineer. He holds a BSc in Computer Science from Instituto Superior Tecnico.
+  - **Diogo Ribeiro, Web Designer:** [https://dribbble.com/diogoalmeidaribeiro](https://dribbble.com/diogoalmeidaribeiro) - Diogo has a background in product design. His skills include UX, UI and front-end development. He has worked on web applications both within web3 and outside. Some of his previous work includes UI and UX on Standard Protocol and DYNX crypto exchange. He holds a B.A. Sc. in Computer Engineering from Instituto Superior Tecnico.
+
+
+* __Timeline and Milestones for Use of Grant__ - This grant will be used to create an incentivized d2o <> GLMR and d2o <> xcDOT pairs in order to maximize the impact of DAM’s existing and pipeline of partnerships with Stargate, and a myriad of other dapps. Additionally, DAM has an opportunity to become the leading stablecoin project within the Polkadot ecosystem and these pairs would establish Moonbeam as d2o’s nucleus in connection with cross-chain connected contracts. 
+
+   - Milestone 1 (timing: T = 0): Grant Acceptance: 75,000 GLMR for concentrated liquidity minimum TVL, incentives and listing fees for a concentrated d2o <> GLMR pair.
+  - Milestone 2 (estimated timing achieved: T + 30 Days): d2o <> GLMR concentrated liquidity pair hits $100k TVL: 187,500 GLMR for incentives from T = 0 through T + 180 days.
+  - Milestone 3 (estimated timing achieved: T + 60 days): d2o <> GLMR concentrated liquidity pair hits $200k TVL: 187,500 GLMR for incentives between T + 180 days and T + 360 days.
+  - Milestone 4 (estimated timing achieved: T + 60 days): d2o <> xcDOT traditional pair hits $25k TVL: 150,000 GLMR for incentives from T + 60 days through T + 180 days.
+  - Milestone 5 (estimated timing achieved: T + 90 days): d2o <> xcDOT pair hits $100k TVL: 150,000 GLMR for liquidity incentives between T + 180 days and T + 360 days.
+
+  - By T + 180 days, our goal is to hit 1k+ d2o holders with 5mm+ in market capitalization. These liquidity incentives will enhance d2o’s current footprint on Moonbeam, including against the d2o <> xcUSDT pool on Curve Finance. DAM is already working with a number of dapps building cross-chain uses cases where d2o is being used as a primitive in cross-blockchain workflows using DAM’s dReservoir protocol including, but not limited to:
+
+    - Cross-Chain DEX
+    - Cross-Chain Lending/Borrowing
+    - Cross-Chain one-click redemptions and arbitrages
+    - Cross-Chain NFT Renting
+    - Cross-Chain NFT purchases
+
+  - Given Moonbeam and the Polkadot ecosystems are DAM’s primary focus areas, these d2o pools will help accelerate our growth efforts across the Polkadot network.
+
+  - Our intention is that the d2o <> GLMR pair be a Pulsar Pool on StellaStap. We are engaged with StellaSwap around this deployment, but how StellaSwap decides to incentivize activity on their platform is out of our control. As evidenced by our grassroots traction within the Moonbeam ecosystem, we strongly believe there is a need and desire for d2o above and beyond wrapped USDC and xcUSDT.
+
+  - In only several weeks of being live, d2o has a comparable diversity of holders relative to these alternatives based on Data from Moonscan at approximately 1pm EST on 17 March, e.g.:
+    - axlUSDC: 149 Holders
+
+     - d2o: 633 Holders (as of 19 March at 1pm EST this figure is now 1,183 holders)
+
+    - xcUSDT: 919 Holders
+
+    - USDC.wc: 1,162 Holders
+
+  - d2o is designed without the tradeoffs of bridged assets, making it a more attractive option for a long-duration asset (and thus, holding it as a liquidity provider.)
+
+  - Separately, we are actively working with the ecosystem to drive utility within Moonbeam, and increasing d2o liquidity would benefit users of all those other projects that are starting to integrate with d2o.
+
+* __Vision Of Success__ - DAM’s vision is to be the leading DAO for scaling liquidity on emerging chains, starting with Polkadot. Therefore, it is paramount for d2o to first become the default native stablecoin on Moonbeam. As a general matter, DAM is focused on both pursuing on-chain and off-chain composability. We are actively working to integrate with ecosystem projects, and serve as a mechanism to attract new activity to Moonbeam. 
+
+  - In order to achieve these goals, d2o needs additional liquidity to accelerate DAM’s business development and growth efforts. After these incentives run out, DAM will continue to establish longevity within Moonbeam and the Polkadot ecosystems by:
+
+    - Driving additional utility for d2o, including as part of cross-blockchain workflows as part of Moonbeam’s cross-chain connected contract strategy
+     - Adding new product features enabling one-click, cross-blockchain workflows
+    - Potentially expanding d2o’s collateralization profile via DAM’s LMCV, which enables a portfolio of assets to be used for minting
+     - Launching the DAM token in a regulatory compliant and decentralized manner.
+
+  - OKR Summary Below:
+
+    - OKRs over the next 90 days include:
+
+      * Overtaking xcUSDT’s current footprint
+      * 1k+ d2o holders on Moonbeam (we have accelerated this goal due to a significant increase in growth over the past few days)
+      * 2mm+ d2o market capitalization on Moonbeam
+
+    - OKRs over the next 180 days include:
+
+      * Overtaking USDC.wh’s current footprint
+      * 5k+ d2o holders on Moonbeam
+      * 5mm+ d2o market capitalization on Moonbeam
+
+    - OKRs over the next 360 days include:
+
+      * Becoming one of Moonbeam’s most liquid assets
+      * 10k+ d2o holders on Moonbeam
+      * 10mm+ d2o market capitalization on Moonbeam
+
+  - As a general matter, DAM’s goal is for d2o to be the default stablecoin choice for all pairs as well as long-duration, and short-duration use cases on Moonbeam, and eventually, becoming the leading stablecoin project on Polkadot.
+
+   - Deploying d2o natively to other parachains is a short-term, tactical decision. Our medium-term and long-term goal is to rely on the XCM standard. This short-term approach is required because:
+     * DAM is in the process of negotiating grants with other parachains - including parachains minting d2o in bulk - and a condition in these conversations is having deploying d2o natively.
+     * DAM is actively working to get price feeds for d2o so it can be used as collateral in lending/borrowing protocols, and many providers view the xc-convention as a different asset than d2o, especially across different parachains.
+
+* __Rationale__ - - DAM adds value to the Moonbeam ecosystem in several ways:
+
+     - Cross-Chain Connected Contracts: DAM is a live example of a cross-chain connected contract project, as it is built on top of LayerZero and Hyperlane with modularity built in such that DAM can add other supported cross-chain messaging protocols as required. DAM is also extending to other blockchains within the Polkadot ecosystem in the short-term, so d2o can be teleported natively between blockchains.
+     - Asset Market Depth: DAM is a mechanism to attract net new TVL to Moonbeam via a long-duration asset without the trade offs of wrapped tokens. This enables cross-chain dapps such as DEX/borrowing to be able to free up more liquidity on Moonbeam.
+     - Composability: DAM has a strong emphasis on composability and has already integrated and partnered with several of the ecosystem’s most active communities, all of which will help increase network transactions.
+     - Developer adoption of Moonbeam: d2o is a highly composable, multi-network primitive which can help add immediate value to any dapp interested in immediately deploying on Moonbeam in connection with a cross-chain connected contract strategy.
+
+
+* __Steps to Implement__ - As we launched DAM's mainnet v1 in February 2023, creating these pools and achieving the above milestones is a matter of how fast we can work with the required ecosystem participants and continue building off of DAM’s initial launch. We expect to be able to deploy the d2o <> GLMR pool within a matter of two weeks if approved, and DAM’s core contributors - both from a growth and product perspective - are committed to hitting the relevant growth targets via partnerships, marketing, and protocol enhancements. As mentioned above, we are in conversations with StellaSwap as well as others around strategies to launch d2o pools. We have aligned timelines with DEX providers if we were to receive this grant, which would be the only dependency for implementation of the grant.
