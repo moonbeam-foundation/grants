@@ -61,7 +61,7 @@ We launched several features that aimed to simplify users’ DeFi journey to max
 __CONNECTED CONTRACTS USE CASE__ (Updated Feedback from Turritz)
 This is something we’ve been EXTREMELY EXCITED about! For context, we’ve been working with Squid since last quarter of 2022 to lay the infrastructure + provide optimizations for crosschain swaps (CCS). Kudos to the Squid team for their thought-leadership and responsiveness in ensuring CCS was perfect. The coordinated launch of CCS swaps on Moonbeam was a huge landmark for the ecosystem, and StellaSwap was the first to launch CCS powered by Squid & Axelar. The importance of CCS in abstracting complexities and simplifying DeFi was the main reason why we were extremely enthusiastic about CCS and pushed forward a slew of targeted marketing campaign (e.g. with Moonbeam, Polygon, Arbitrum) to drive adoption and capital inflow towards Moonbeam. We’re proud to say that CCS on Moonbeam has been a great success, with Moonbeam leading the charts on usage and capital inflows:
 
-![image](upload://oOQ764w6rEzOrGDbYk147ohuYpD)
+![image](assets/stellaswap/image1.png)
 
 We will continue to induce behaviour towards using CCS, especially for first-time users and draw users toward Moonbeam, with the help of Squid+Axelar+participating ecosystems.
 
@@ -71,18 +71,18 @@ __GRANTS PERFORMANCE__
 Let's take a look at the performance of the previous grants cycle.
 
 **TVL Targets** (Updated feedback from Natalia)
-**![image|690x290](upload://7JZHLEO8JdW9biilsRr2c8avWjb.jpeg)**
+**![image|690x290](assets/stellaswap/image2.png)**
 Our initial forecasted target for the first 4 weeks was $26M, which we promptly hit as we topped at around $28M. From then on, the market turned north as GLMR tanked approximately 40% in price from a high of $0.53 to a low of $0.32 in a span of two weeks. General market conditions were bleak, with the entire market bleeding along the same ranges. This impacted our TVL growth, as TVL is fuelled by 1) the USD price of GLMR & STELLA emissions as well as 2) USD price of all assets on our farm. 
 
-**![|267x291](upload://5zpUjxqAfj7z2u0aFKuI4PagxCR.png)**
+**![|267x291](assets/stellaswap/image3.png)**
 Market drawdown was aligned to the reduction of our TVL growth forecasts.
 
 **Total Volume**
-**![|602x273](upload://zmV7IuXpLCmvbHyOY0OyFecCfHw.png)**
+**![|602x273](assets/stellaswap/image4.png)**
 We’ve had a healthy cadence of trade volume throughout the duration of the grants, averaging around $1M - $2.5M daily.
 
 **User Count**
-**![|602x252](upload://rs13W8YGeiwu0lJFo11sJQofDAc.png)**
+**![|602x252](assets/stellaswap/image5.png)**
 We’ve also had a good range of daily unique users on Pulsar, averaging 500 daily.
 
  __RATIONALE__ 
@@ -168,7 +168,7 @@ User acquisition is a core metric for growth of any protocol; a growing protocol
 
 This current round of grants will run for approximately 3 months, and will be used to incentivize strategic farms as part of the transition to Pulsar. Strategic farms are made up of assets of strategic importance, which are in the form of blue-chips. Pulsar will ensure that grants will go a longer way in attracting more sticky and sustainable liquidity. Although the TVL forecast of this current grants round would be similar to our previous grant application, the market depth from Pulsar’s TVL will be multiplied given the greater concentration of liquidity. This will allow protocols within the network to tap on our deep liquidity for their full-functioning.
 
-**![|602x115](upload://zaPvQlJ43fRBjv45RXAJh6LgxrI.png)**
+**![|602x115](assets/stellaswap/image6.png)**
 
 **JUSTIFICATIONS FOR ASSET STRUCTURE**
 There are several farms that have been restructured. This section will delve into the context and justifications.
@@ -223,7 +223,7 @@ We've launched Pulsar mainnet at the start of the year in order to prove the pow
 
 **Strategy for Farm Launches** (Updated feedback from Natalia)
 We've announced the formal plan for [farm transmission](https://stellaswap.medium.com/transition-of-strategic-farms-to-pulsar-the-plan-8d04265fac2e), which entails;
-![image|690x443](upload://wXJD2eE34ysg0ZuwzOUDDRuCQLf.jpeg)
+![image|690x443](assets/stellaswap/image7.png)
 
 
 
