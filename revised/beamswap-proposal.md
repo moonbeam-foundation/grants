@@ -43,27 +43,15 @@ Below are several quantifiable metrics that are consistent with the specific obj
 
 Expected growth in Phase 1 of Beamswap Concentrated Liquidity (April 2023) :
 
-* Unique User Growth from 1100 to 1500 per month
-* Increase average monthly transactions from 40000 to 55000
-* Hit $3.5M TVL within 1st week of Concentrated Liquidity launch
+* Unique User Growth from 1100 to 1300 per month
+* Increase average monthly transactions from 40000 to 50000
+* Hit $1.5M TVL within 1st week of Concentrated Liquidity launch
 
 Expected growth in Phase 2 of Beamswap Concentrated Liquidity (May - June 2023):
 
-* Increase Unique User Growth by 30% compared to Phase 1 results
-* Increase average monthly transactions by 30% compared to Phase 1 results
-* Hit $5.5M TVL within 1st week of Phase 2 launch
-
-Expected growth in Phase 1 of Beamex Launch (First two weeks of May):
-
-* Onboard 300 unique users
-* Hit an average daily volume of 500,000$
-* Hit $1.85M TVL within 2 weeks of launch
-
-Expected growth in Phase 2 of Beamex Launch :
-
-* Have 700 unique users
-* Hit a daily volume of 2,000,000$
-* Hit $3.5M TVL within 2 weeks of Phase 2 Launch
+* Increase Unique User Growth by 15% compared to Phase 1 results
+* Increase average monthly transactions by 15% compared to Phase 1 results
+* Hit $3M TVL within 1st week of Phase 2 launch
 
 Besides using GLINT and GLMR as reward tokens we also plan to attract users with internal and external marketing powered by Airlyft and Crew 3. We will also implement a referral program and a strategic content strategy that emphasizes inbound marketing funnels to focus on user acquisition and total value locked (TVL) growth.
 
@@ -139,7 +127,7 @@ In just over a year since launch, the Beamswap DeFi Hub has accumulated a lifeti
 
 The Beamswap-native $GLINT token is the most held asset on the Moonbeam Network with 10,900 holders, while the $SHARE token is the most held secondary asset on Moonbeam with 5,000 holders.
 
-![|602x339](upload://fD6fkHq6wKjwisKaZZgPQIGbwJM.jpeg)
+![|602x339](assets/beamswap/image1.jpeg)
 
 Beamswap DeFi Hub supports an array of versatile and technologically sophisticated features. Advancing from the one-click peer-to-peer asset swap, users can benefit from Standard and Stable AMM, stake their tokens in Beamshare, earn passive income in Yield Farms, Zap In and Out to acquire LP tokens in a click, use elaborate trading tools in Advanced Trading, track their transactions in Portfolio Tracker, stay updated with $GLINT burn trajectory on the Burn Dashboard, put their skills to test in Trading Competitions, participate in BLO - Beamswap Liquidity Offering, and support promising projects on Beamswap Launchpad.
 
@@ -149,7 +137,7 @@ In one of the most radical updates, the platform has recently developed and laun
 
 The rich array of opportunities has attracted a strong, and growing, user base. On average, Beamswap has 3,940 unique monthly users and onboards 1,855 new users per month. To date, 25,977 unique users in total have interacted with the Beamswap dapp in one way or another on the Moonbeam Network.
 
-## ![|602x336](upload://75F6DG9Az6RDbb3OX8cSCJpjsPs.jpeg)
+## ![|602x336](assets/beamswap/image2.jpeg)
 
 ## Beamex Beta
 
@@ -157,13 +145,13 @@ Beamex is the newest perpetual DEX that evolved from Beamswap DeFi Hub and deliv
 
 As a decentralized spot and perpetual exchange, Beamex delivers advanced crypto trading to the Moonbeam network, both market order swaps and leverage trading of crypto futures, at low fees and zero price impact.
 
-![|602x339](upload://1FHnZ0saMSo0aa6sui7p9KCd5Br.jpeg)
+![|602x339](assets/beamswap/image3.jpeg)
 
 An in-depth article about Beamex and its core features can be read [here](https://medium.com/beamswap/announcing-beamex-a-decentralized-perpetual-exchange-f8a81b0447cf).
 
 ### Beamex Beta first week statistics
 
-![|602x339](upload://6XeJKGFJn4mRwuNFnLmUsrTPR7E.jpeg)
+![|602x339](assets/beamswap/image4.jpeg)
 
 The Beamex Beta is delivered on the BSC Testnet, where users test the exchange features using imaginary tokens. The trade results achieved on Beamex Beta cannot be translated to the production-level Beamex due to factors such as using real money, low risk-taking, and lower TVL. For the Beamswap team, the Beamex Beta represents a test version, and the community should approach it as merely a way to familiarize itself with product features.
 
@@ -183,7 +171,7 @@ The Beamswap Flywheel will leverage all the Beamswap products and consist of the
 
 Connected contracts <> Beamswap v2 <> Beamswap v3 <> Beamex
 
-![|602x339](upload://2fsk4Ns2dkTo8tvs0OZnF98lbA7.jpeg)
+![|602x339](assets/beamswap/image5.jpeg)
 
 100% of the GLMR incentives acquired from the present grant would be channeled back to network users, mainly to provide extra rewards for liquidity providers on Beamswap and perpetual traders on Beamex.
 
@@ -239,7 +227,7 @@ In the first four weeks, a liquidity-sufficient order book would be developed fo
 
 Through the use of XCM transfer and connected contracts, a stable pool (3pool) consisting of USDTxc, USDCaxl, and USDCmulti would be deployed.
 
-![|602x339](upload://stGnLWpgEEQMwhCLHXfGMDckMSP.jpeg)
+![|602x339](assets/beamswap/image6.jpeg)
 
 Achieving the forecasted TVL would lead to more daily volume on the Beamswap DEX while increasing the Moonbeam Network key metrics in active users, transactions, and total value locked.
 
@@ -253,7 +241,7 @@ Following the successful Phase 1 of building sufficient liquidity, the Beamex pe
 
 Using Beamswap Flywheel, users will be able to benefit from Moonbeam and Polkadot capabilities to open long or short positions on Beamex-supported assets.
 
-![|602x339](upload://4UU32xt3zIprYMzEIq4fgiebraE.jpeg)
+![|602x339](assets/beamswap/image7.jpeg)
 
 Expected APY and TVL should be met within the second week of the Beamex launch. The adoption of Beamex will be supported through a set of guides, dedicated community managers, and daily marketing activity to ease user onboarding to a completely new product. The use of Beamex Beta is strongly encouraged.
 
@@ -285,7 +273,7 @@ The initial phase is the Launch phase with 140,000 GLMR community rewards.
 
 The following phase is a Retail phase with 310,000 GLMR community rewards.
 
-![|602x339](upload://jah9xRmlIOoddRGwE5EnuJ09hdO.jpeg)
+![|602x339](assets/beamswap/image8.jpeg)
 
 # 10 Vision of Success
 
@@ -297,7 +285,7 @@ At the beginning of 2023, Beamswap had an average of 2,661 unique users per mont
 
 As Beamswap progresses with platform development, continuously steady QOQ user growth is anticipated, especially with incentives powering the user onboarding initiatives and campaigns.
 
-![|602x339](upload://91jHDEqQmYsNh2v469wzV5IF4Ac.jpeg)
+![|602x339](assets/beamswap/image9.jpeg)
 
 Ultimately, the long-term goal for Beamswap is to become a fee-powered DEX, reliant only on ongoing user activity bringing in sufficient volume and liquidity.
 
@@ -311,7 +299,7 @@ As more XC-20 assets are supported, Beamswap continues reinforcing the implement
 
 In the case of grant application approval, the Beamswap team plans to roll out advanced features and platform upgrades to pursue the expansion and loyalty of the DeFi community. On the one hand, these would reward users for their activities, either trading crypto assets or promoting the platform. On the other hand, they would optimize the platform offering and expand its reach with both Beamswap-launched cutting-edge solutions like concentrated liquidity AMM and perpetual DEX, as well as those supplied by partners, such as the cross-chain liquidity routing module by Axelar and Squid.
 
-![|602x339](upload://3toEfKHojF1afpZQrjK0LvBFEQG.jpeg)
+![|602x339](assets/beamswap/image10.jpeg)
 
 # 12 Steps to Implement
 
