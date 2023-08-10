@@ -9,41 +9,11 @@
         -   Maintain and Grow Activity (active users, transactions, TVL)
     -   **Project Description**  - Beamswap is Moonbeam-based DeFi hub powered by standard, stable & CL AMM , providing liquidity for peer-to-peer transactions, as well as the only active perpetual exchange on Polkadot.
         
--   **Requested GLMR Grant Amount**  - 2,000,000 GLMR
+-   **Revised Requested GLMR Grant Amount** - 622,927 GLMR
     
--   **Use of Grant**  - 400,000 GLMR will be used to increase market liquidity for Beamex, a decentralized perpetual exchange, and 1,600,000 GLMR for Beamswap v3 concentrated liquidity AMM, leading to a stronger influx of active users to the Moonbeam network and their long-term retention.
+-   **Use of Grant**  - 249,171 GLMR will be used to increase market liquidity for Beamex, a decentralized perpetual exchange, and 373,756 GLMR for Beamswap v3 concentrated liquidity AMM, leading to a stronger influx of active users to the Moonbeam network and their long-term retention.
     
 -   **Motivation for Grant Amount**- Following the vision of becoming a fully user-powered DEX, the funding of Beamswap and Beamex would, therefore, beneficially impact the acquisition of new users on the Moonbeam Network, further increasing its relevance compared to other networks.
-    
--   **Updates**
-    
-
-> 1.  Beamswap V3 Liquidity Building was delayed for 2 months (from April to June). Please share the latest on Tranche 1, including
-> 
-> -   how much rewards Beamswap has left and
-> -   when the incentives are supposed to end.
-
-1.  V3 Rewards will end on the 8th of September. We have around 390,000 GLMR left.
-
-> 2.  The strategy on Tranche 1 was to use 500,000 GLMR’s for V3 within 1 month. Now the strategy is to use 1,600,000 GLMR’s within 3 months. Could you please detail the rationale behind this rate of ~500,000 GLMR per month? Is Tranche 1 actually being used at this rate?
-
-2.  It is based on the duration of the Tranche to maximize our ability to attract meaningful liquidity along with other grant participants for the best effect on the network. Tranche 1 is not being used at this rate because we received a smaller amount than requested and we had to adapt.
-
-> 3.  Have you considered a slower burn rate to extend the rewards for 6 to 9 months?
-
-3.  Yes, we have. If we receive the full requested amount, we are considering extending the rewards from a 3 to a 6-month period.
-
-> 4.  After the 3rd month, how do you plan to keep up with other DEX’s that will be offering incentives for similar pools, but with a longer period?
-
-4.  If we will not generate sufficient trading volume and thus fees, it will be hard to retain the mercenary liquidity that just chases the best returns available. We will focus on our other features to attract & educate new users.
-
-> 5.  Please inform how your numbers (daily allocation to pools; kpis; etc) will be affected if you receive lower amounts:
-> 
-> -   (a) 1.5M GLMRs and
-> -   (b) 1M GLMRs.
-> -   Please also explains how will the grant be distributed between V3 and Beamex for these scenarios.
-
-5.  We have prepared a Google sheet that you can copy and change the GLMR Amount to get an estimation of what effect a reduced amount of GLMR would have on our incentives.  [Beamswap Grant proposal - Google Sheets](https://docs.google.com/spreadsheets/d/1dbTNQ8JpFdkYIvkXeEZO2tLQbXQOGQusinzmXSykBnY/edit?usp=sharing)
 
 -   **Project Overview and Relevant KPIs**  - The Beamswap DeFi Hub is among the five leading players in the Moonbeam DeFi arena, according to:
 
@@ -61,7 +31,7 @@ Beamswap has continuously hit the charts and was listed among/as:
 
 In a year and a half since its launch, the Beamswap team has delivered numerous new products and solutions. Most recently, we have launched  [Beamswap V3 Concentrated Liquidity](https://medium.com/beamswap/breaking-beamswap-upgrades-to-v3-boosts-capital-efficiency-for-moonbeam-based-defi-374260b8e14a)  and  [Beamex](https://medium.com/beamswap/announcing-beamex-a-decentralized-perpetual-exchange-f8a81b0447cf), the first Perpetual Exchange on Polkadot Network.
 
-Beamswap’s concentrated liquidity AMM currently has a TVL of $450,000, complimented by Beamex’s $250,000.
+Beamswap’s concentrated liquidity AMM currently has a TVL of $510,000, complimented by Beamex’s $640,000.
 
 -   **Team Experience**  -The Beamswap team represents a tight-knit international group of 15+ members, crypto veterans with a strong background and years of experience in Web3 development, DeFi and TradFi, and strategic marketing, working tirelessly to deliver outstanding service, scout new partnership opportunities, and contribute to the evolution of the ecosystem.  
     Most team members have public names on their social profiles and wish not to be named in the present grant. The Moonbeam Foundation is acquainted with all the key team members and has met several of them at past crypto conferences, the most recent being Consensus.
@@ -75,18 +45,18 @@ Beamswap’s concentrated liquidity AMM currently has a TVL of $450,000, complim
 
 Token prices used for calculations:
 
--   GLMR = USD 0.26
+-   GLMR = USD 0.24
 -   GLINT = USD 0.00085
 
-Data for prices taken on 2nd of July 2023.
+Data for prices taken on 9th of August 2023.
 
-**Beamswap V3 Concentrated liquidity: 1,600,000 GLMR**  
+**Beamswap V3 Concentrated liquidity: 373,756 GLMR**  
 
-![image1](assets/beamswap2/image1.jpeg)
+![image1](assets/beamswap2/beamswap_table_1.png)
 
-**Beamex Perpetuals: 400,000 GLMR**  
+**Beamex Perpetuals: 249,171 GLMR**  
 
-![image2](assets/beamswap2/image2.jpeg)
+![image2](assets/beamswap2/beamswap_table_2.png)
 
 We plan to track 4 key metrics:
 
@@ -95,7 +65,7 @@ We plan to track 4 key metrics:
 -   Beamswap 30d transactions
 -   Beamex BLP TVL
 
-With rewards being flat and people already familiar with both products, we propose a 10% monthly increase for all the goals. The source for data is publicly available here:
+With rewards being flat and people already familiar with both products, we propose a 3.5% monthly increase for all the goals. The source for data is publicly available here:
 
 Source of Beamswap TVL and Volume Data:  [Dashboard | Beamswap Analytics](https://analytics.beamswap.io/all)
 
@@ -103,9 +73,6 @@ Source of Beamex TVL:  [Beamex](https://beamex.exchange/#/dashboard)
 
 Source of Transaction Data:  [Analytix](https://analytix.web3go.xyz/layout/dashboardDetail/c99f7e10-de9c-4d9f-992b-279b6e0ae2e2?date_filter=past90days&text=Beamswap&text_is_not=)
 
-The proposed data is based on the full 2,000,000 GLMR reception.
-
-![image3](assets/beamswap2/image3.jpeg)
 
 -  **Vision Of Success**  - Beamswap’s vision is to establish a base amount of liquidity on the Moonbeam network, enabling institutional and retail users to execute their strategies with lower fees & slippage and higher efficiency.
     

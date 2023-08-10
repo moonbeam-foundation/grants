@@ -4,7 +4,7 @@
 ![TFADAO-logo](assets/tfdadao/tfadao-logo.png)
 
 
-TLDR - Updated Timeline & milestones, Vision of success, Rationale, Steps to implement, Grant amount and general review.
+TLDR - Updated Timeline & milestones
 
 ## 1 Primary Goal
 
@@ -135,9 +135,9 @@ Overall, the team is committed to leveraging their own expertise as well as the 
 
 Community Events Initiative:
 
-Start Date: August 1st, 2023
+Start Date: September 1st, 2023
 
-Community Events: 26 bi-weekly events: August 1st, 2023 - August 31st, 2024
+Community Events: 26 bi-weekly events: September 1st, 2023 - August 30th, 2024
 
 (350,000 GLMR)
 

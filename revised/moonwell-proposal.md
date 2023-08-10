@@ -37,7 +37,7 @@ The entirety of the grant funds (GLMR) will be distributed to liquidity provider
 
 ## Motivation for Grant Amount
 
-The proposed Ecosystem Grant Amount of 2,000,000 GLMR will enable Moonwell to continue to bolster liquidity for both bridged and native assets in the ecosystem. Increased liquidity in lending protocols like Moonwell enables borrowers to receive lower interest rates, which makes borrowing for use in other applications and protocols on Moonbeam more attractive, and helps grow TVL and adoption more broadly across the ecosystem. By endorsing this grant, the Moonbeam community is not only backing a proven model of success, but also reaffirming their trust in a project that has demonstrated its transparent and responsible use of prior grant allocations.
+~1.6M GLMR will enable Moonwell to continue to bolster liquidity for both bridged and native assets in the ecosystem. Increased liquidity in lending protocols like Moonwell enables borrowers to receive lower interest rates, which makes borrowing for use in other applications and protocols on Moonbeam more attractive, and helps grow TVL and adoption more broadly across the ecosystem. By endorsing this grant, the Moonbeam community is not only backing a proven model of success, but also reaffirming their trust in a project that has demonstrated its transparent and responsible use of prior grant allocations.
 
 Previous ecosystem grant funding was a crucial component in various recent successes:
 
@@ -100,7 +100,7 @@ The Moonwell community will have successfully deployed 100% of the original 4.16
 
 The Moonwell community will also commit to providing monthly updates regarding emissions and grant usage on the Moonbeam Forum, as recommended in the  [Trance 2 Update post](https://forum.moonbeam.network/t/ecosystem-grants-program-tranche-2-update/873): “Teams that receive the grant should update the community via the forums on progress on a regular basis; a minimum of 1 update per month is required.
 
-It is anticipated that the grant funds from Tranche 2 would be distributed from early August 2023, to February 2024, at a rate of approximately 400K GLMR per 4 week reward interval. In total, a grant of 2M GLMR has been requested. Should the final allocation fall short of this request, our utilization blueprint will remain unchanged. However, please note that a reduction in the granted amount would proportionally diminish both the distribution rates and the potency of these incentives, impacting their ability to achieve the intended objectives outlined above.
+It is anticipated that the grant funds from Tranche 2 would be distributed from early August 2023, to February 2024, at a rate of approximately 400K GLMR per 4 week reward interval.
 
 ### Collaborations
 
@@ -135,29 +135,12 @@ _Please note: While liquidity incentives can serve as an important growth cataly
 
 _We will track results transparently and adjust strategies as needed based on evolving conditions. But no amount of incentives can ensure success if winds shift. The community’s support provides means, not guarantees. We are committed to driving adoption, but cannot promise specific outcomes relying on variables outside our control._
 
-If Moonwell receives 500k GLMR, we have estimated results of:
+Receiving 1,576,853.40 GLMR, we have estimated results of:
 
--   Increase TVL by 10%
--   Grow 30 day EOA (unique addresses) by 10%
--   Maintain current average interest rates
+- Increase TVL by 30%
+- Grow unique addresses by 30%
+= Decrease average interest rates by 1%
 
-If Moonwell receives 1M GLMR, we have estimated results of:
-
--   Increase TVL by 20%
--   Grow unique addresses by 20%
--   Decrease average interest rates by 0.5%
-
-If Moonwell receives 1.5M GLMR, we have estimated results of:
-
--   Increase TVL by 30%
--   Grow unique addresses by 30%
--   Decrease average interest rates by 1%
-
-If Moonwell receives 2M GLMR (requested), we have estimated results of:
-
--   Increase TVL by 40-50%
--   Grow unique addresses by 40-50%
--   Decrease average interest rates by 1-2%
 
 ## Vision Of Success
 
