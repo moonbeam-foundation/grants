@@ -10,7 +10,10 @@ As outlined in sicco-moonbeam's [Moonbeam Forum post](https://forum.moonbeam.fou
 | Tranche # | Grant Proposal 											           |
 |---		| ---														  		   |
 |	1		| [Tranche 1 Ecosystem Grant Proposal](./revised/tranche_1_proposal.md)|
-|	2		| TBD															           |
+|	2		| [Tranche 2 TFADAO Ecosystem Grant Proposal](./revised/tfadao-proposal.md)|
+|   2       | [Tranche 2 Moonwell Ecosystem Grant Proposal](./revised/moonwell-proposal.md)|
+|   2       | [Tranche 2 Gamma Ecosystem Grant Proposal](./revised/gamma-proposal.md) |
+|   2       | [Tranche 2 BeamSwap Ecosystem Grant Proposal](./revised/beamswap-proposal2.md) |
 
 
 
